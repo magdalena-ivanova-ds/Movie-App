@@ -49,7 +49,7 @@ Before you begin, ensure you have the following installed:
      ```
      - If that doen't work for you try this (Replace X.X with your MySQL version (e.g., 8.0)):
          ```bash
-         "C:\Program Files\MySQL\MySQL Server X.X\bin\mysql" -u root -p
+         "cd C:\Program Files\MySQL\MySQL Server X.X\bin\mysql" -u root -p
          ```
    - Run the SQL script to create the database and tables:
      ```bash
