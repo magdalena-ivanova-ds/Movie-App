@@ -58,9 +58,9 @@ Before you begin, ensure you have the following installed:
    - Alternatively, you can copy and paste the SQL commands from `database.sql` into your MySQL client.
 
 4. **Set up environment variables**:
-   - Create a `.env` file in the project root:
+   - Create a `.env` file in the project root directory:
      ```bash
-     touch .env
+     .env
      ```
    - Add your MySQL credentials to the `.env` file:
      ```env
