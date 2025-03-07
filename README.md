@@ -94,9 +94,11 @@ movie-app/
 ├── app.js               # Express app setup
 ├── database.sql         # SQL script to initialize the database
 ├── .env                 # Environment variables (not included in Git)
+├── .env.example         # Example environment variables file (for reference)
 ├── .gitignore           # Files and folders to ignore in Git
 ├── README.md            # Project documentation (you're here!)
 ├── package.json         # Node.js dependencies and scripts
+├── package-lock.json    # Auto-generated lock file for dependencies
 ├── controllers/         # Business logic for handling requests
 │   └── userController.js
 ├── models/              # Database interaction logic
@@ -110,7 +112,7 @@ movie-app/
 │   ├── index.ejs
 │   ├── user.ejs
 │   └── users.ejs
-└── public/              # Static files (CSS, images)
+└── public/              # Static files (CSS)
     └── styles.css
 ```
 
